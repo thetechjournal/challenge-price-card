@@ -30,6 +30,7 @@ h3 {
 }
 
 li {
+  list-style-type: none;
   padding: 0.4em;
 }
 
@@ -106,6 +107,16 @@ header {
 .card:hover {
   transform: rotateX(0deg) rotateY(10deg);
 }
+
+.card-features {
+  font-size: 1.1rem;
+  margin-top: 3rem;
+}
+
+.card3-features {
+  color: hsl(180, 1%, 14%);
+}
+
 
 .front,
 .back {
@@ -243,8 +254,18 @@ button:focus {
   color:hsl(180, 2%, 21%);
 }
 
+.pricing-card1 {
+  border: 1px dotted black;
+}
+
 .pricing-card2 {
   color: hsl(24, 100%, 64%);
-  
+  border: 1px dotted orange;
+}
+
+.pricing-card3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border: 1px dotted black;
 }
 

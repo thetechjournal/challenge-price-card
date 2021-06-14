@@ -37,8 +37,8 @@ const closeOtherCards = (currentCard) => {
         default:
             break;
     }
-
 }
+
 const openCard1 = () => {
     closeOtherCards(currentCard = '1');
     card1Page1.classList.toggle('flipped');
